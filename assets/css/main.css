@@ -33,6 +33,12 @@ body {
 	background-size: cover;
 	/*background-attachment: fixed;*/
 	margin-bottom:1px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.hioogo-section  p{
+	text-align:left;
+	line-height:200%;
 }
 
 #section0{
@@ -40,9 +46,14 @@ body {
 	color: #fff;
 }
 
-#section1-{
-	background-image: url(../img/bg1.jpg);
-	background-attachment: fixed;
+#section1 h3{
+	font-size: 46px;
+	color: #0194e9;
+	line-height: 50px;
+	text-align:left;
+}
+#section1{
+	background-image: url(../img/c-72.png);
 }
 
 #section2-{
@@ -70,6 +81,9 @@ body {
 		font-size: 40px;
 	}
 }
+.hioogo-section .lead {
+	text-align: center;
+}
 
 @media (min-width: 768px) {
 	.hioogo-section .lead {
@@ -93,8 +107,7 @@ body {
 }
 
 .hioogo-footer {
-	margin-top: 20px;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #777;
 	text-align: center;
